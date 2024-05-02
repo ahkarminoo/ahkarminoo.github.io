@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items at the top */
+    color: white;
+    background-image: url('media/Van_T.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+}
+
+.title {
+    background: gray;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.music-container {
+    display: flex;
+    justify-content: center; /* Center the music player */
+    flex-grow: 0; /* Allow the container to grow to fill remaining space */
+}
+
+.music-player {
+    background: gray;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.music-player a {
+    display: block;
+    margin-bottom: 10px; /* Add some bottom margin between the lines */
+    color: white; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Add padding to the links */
+    margin-bottom: 10px;
+}
